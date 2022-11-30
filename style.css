@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 19rem;
+    margin: auto;
+    margin-top: 7.18rem;
+    height: 32.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 41px 0px rgb(0 0 0 / 75%);
+    /* background-image: linear-gradient(to right, #8360c3, #2ebf91); */
+    background-color: black;
+    border-radius: 6px;
+}
+.conatiner_cal{
+    width: 19rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conatiner_cal .log{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.37rem;
+    font-weight: 900;
+    width: 14.68rem;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    border-radius: 2px;
+    background-color: black;
+    font-size: 1.87rem;
+    font-family: cursive;
+}
+.cal_button{
+    display: flex;
+    flex-direction: column;
+}
+#raw1{
+    display: flex;
+ 
+}
+#raw2{
+    display: flex;
+}
+#raw3{
+    display: flex;
+}
+#raw4{
+    display: flex;
+}
+#raw1A{
+    width:3.66rem;
+    height:3.15rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    background-color: orange;
+    margin: 0.31rem 0.31rem;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+
+#raw2A{
+    width:3.66rem;
+    height:3.15rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    margin: 0.31rem 0.31rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+#raw3A{
+    width:3.66rem;
+    height:3.15rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    margin: 0.31rem 0.31rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+#raw4A{
+    width:3.66rem;
+    height:3.15rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    margin: 0.31rem 0.31rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+#raw5A{
+ 
+    display: flex;
+    width: 17.54rem;
+    height: 3.15rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 10px 20px 2px rgb(0 0 0 / 25%);
+    margin: 5px 0px;
+    background-color: green;
+    font-weight: 600;
+    font-size: 68px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.raw5{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 268px;
+    height: 55px;
+    border: 2px solid rgb(255, 255, 255);
+    caret-color: 2px solid  white;
+    font-weight: 600;
+    padding: 4px;
+    font-size: 18px;
+    margin-bottom: 5px 0px;
+    background-color: #c1ac14;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 0.25rem;
+}
+#raw1A:hover{
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+#raw2A:hover{
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);      
+}
+#raw3A:hover{
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);      
+}
+#raw4A:hover{
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);        
+}
+#raw5A:hover{
+    background-color: red; 
+    transition: all 0.3s ease-in-out;
+  
+}
+
+#mode{
+    padding: 0.5rem;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
